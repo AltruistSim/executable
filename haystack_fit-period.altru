@@ -1,0 +1,67 @@
+
+[Model]
+model=Haystack model
+
+[Geography]
+totalArea=100
+maxNumGroups=1000
+maxPerGroup=1000
+carryingCapacity=10, 200
+carryingCapacityStandardDeviation=5
+maxTerritoryArea=1000
+minTerritoryArea=10
+minGroupSize=4
+recolonizationGroupSize=4
+
+[Migration]
+migrationRate=0, 0.2
+emigrationPattern=1
+immigrationPattern=1
+recolonizationPattern=0
+migrationTopology=3
+
+[Loci]
+locusUsed=1, 2, 1056964608, 0
+dominance=2, 1056964608, 0, 0
+initialFractionOfMutant=0.5, 0, 0, 0
+mutationRates=0, 0, 0, 0, 0, 0, 0, 0
+
+[Individual fitness]
+individualFitness=2, 2.2, 2, 2.2, 0, 0, 0, 0
+extraLociFitness=0.99, 0, 0.99, 0
+growthRate=2
+selectionModel=0
+
+[Group properties]
+survivalRate=0
+warIntensity=1
+demeExtinctionRates=0, 0, 0, 0
+extinctionPattern=0
+warPattern=1
+groupFitnessFunction=2
+groupFitnessExponent=1
+leaderAdvantage=4
+leaderSelection=0
+haystackPeriod=20
+mixingPeriod=2
+
+[Run control]
+randomSeed=1
+minimumGenerations=10
+maximumGenerations=100000
+stopCriterion=3
+stopCriterionDegree=0.95
+delayScreen=0
+sweepsUsed=3
+sweepType=3, 1, 0
+sweepParameter=4, 11, 1
+sweepStartValue=0.9, 1, 0
+sweepEndValue=1, 20, 5
+sweepStep=1, 1, 5
+
+[Output control]
+fileOutputOptions=81487
+
+[Model-specific parameters]
+max_metapopulation=1000000
+mix_period_growthrate=2

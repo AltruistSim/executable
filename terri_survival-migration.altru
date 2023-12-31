@@ -1,0 +1,65 @@
+
+[Model]
+model=Territoriality model
+
+[Geography]
+totalArea=90000
+maxNumGroups=9000
+maxPerGroup=100
+carryingCapacity=0.1, 0.1
+carryingCapacityStandardDeviation=0
+maxTerritoryArea=1000
+minTerritoryArea=10
+minGroupSize=4
+recolonizationGroupSize=8
+
+[Migration]
+migrationRate=0.1, 0.1
+emigrationPattern=1
+immigrationPattern=4
+recolonizationPattern=5
+migrationTopology=3
+
+[Loci]
+locusUsed=1, 2, 1048576000, 0
+dominance=2, 1048576000, 0, 0
+initialFractionOfMutant=0.25, 0, 0, 0
+mutationRates=0, 0, 0, 0, 0, 0, 0, 0
+
+[Individual fitness]
+individualFitness=2, 2, 1.9, 1.9, 0, 0, 0, 0
+extraLociFitness=0.99, 0, 0.99, 0
+growthRate=2
+selectionModel=0
+
+[Group properties]
+survivalRate=0.5
+warIntensity=0.1
+demeExtinctionRates=0.1, 0.05, 0.01, 0.01
+extinctionPattern=0
+warPattern=1
+groupFitnessFunction=2
+groupFitnessExponent=1
+leaderAdvantage=2
+leaderSelection=1
+haystackPeriod=999999999
+mixingPeriod=1
+
+[Run control]
+randomSeed=1
+minimumGenerations=100
+maximumGenerations=100000
+stopCriterion=1
+stopCriterionDegree=0.98
+delayScreen=0
+sweepsUsed=3
+sweepType=3, 1, 0
+sweepParameter=1, 10, 1
+sweepStartValue=0, 0, 0
+sweepEndValue=0.1, 0.5, 5
+sweepStep=1, 0.01, 5
+
+[Output control]
+fileOutputOptions=79147
+
+[Model-specific parameters]

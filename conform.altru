@@ -1,0 +1,65 @@
+
+[Model]
+model=Island model
+
+[Geography]
+totalArea=1000
+maxNumGroups=400
+maxPerGroup=78
+carryingCapacity=100, 0
+carryingCapacityStandardDeviation=10
+maxTerritoryArea=1000
+minTerritoryArea=10
+minGroupSize=4
+recolonizationGroupSize=5
+
+[Migration]
+migrationRate=0.01, 0.001
+emigrationPattern=1
+immigrationPattern=1
+recolonizationPattern=1
+migrationTopology=3
+
+[Loci]
+locusUsed=65537, 0, 1045220557, 0
+dominance=0, 1045220557, 0, 1045220557
+initialFractionOfMutant=0.2, 0, 0.2, 0
+mutationRates=0.0001, 0.0001, 0, 0, 0.0001, 0.0001, 0, 0
+
+[Individual fitness]
+individualFitness=2, 2, 1.75, 1.75, 2, 1.5, 1.75, 1.75
+extraLociFitness=0.99, 0, 0.99, 0
+growthRate=2
+selectionModel=0
+
+[Group properties]
+survivalRate=0
+warIntensity=1
+demeExtinctionRates=0.1, 0.1, 0.01, 0.01
+extinctionPattern=0
+warPattern=1
+groupFitnessFunction=2
+groupFitnessExponent=1
+leaderAdvantage=4
+leaderSelection=0
+haystackPeriod=999999999
+mixingPeriod=1
+
+[Run control]
+randomSeed=1
+minimumGenerations=100
+maximumGenerations=5000
+stopCriterion=3
+stopCriterionDegree=0.98
+delayScreen=0
+sweepsUsed=0
+sweepType=0, 0, 0
+sweepParameter=1, 2, 1
+sweepStartValue=0.001, 0.0398107, 0
+sweepEndValue=0.3, 25.1189, 5
+sweepStep=4, 5, 5
+
+[Output control]
+fileOutputOptions=79147
+
+[Model-specific parameters]

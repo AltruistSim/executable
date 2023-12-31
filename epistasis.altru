@@ -1,0 +1,65 @@
+
+[Model]
+model=Epistasis model
+
+[Geography]
+totalArea=1000
+maxNumGroups=625
+maxPerGroup=10
+carryingCapacity=100, 0.1
+carryingCapacityStandardDeviation=0
+maxTerritoryArea=1000
+minTerritoryArea=10
+minGroupSize=4
+recolonizationGroupSize=8
+
+[Migration]
+migrationRate=0.1, 0.1
+emigrationPattern=1
+immigrationPattern=1
+recolonizationPattern=5
+migrationTopology=2
+
+[Loci]
+locusUsed=65793, 1, 0, 0
+dominance=1, 0, 0, 0
+initialFractionOfMutant=0, 0, 0, 0
+mutationRates=1E-05, 1E-05, 1E-05, 1E-05, 1E-05, 1E-05, -1.36867E-33, 0.44721
+
+[Individual fitness]
+individualFitness=2, 1.99, 1.99, 4, 1.99, 1.99, 1.99, 6
+extraLociFitness=0.99, 0, 0.99, 0
+growthRate=2
+selectionModel=0
+
+[Group properties]
+survivalRate=0
+warIntensity=1
+demeExtinctionRates=0.1, 0.05, 0.01, 0.01
+extinctionPattern=0
+warPattern=1
+groupFitnessFunction=2
+groupFitnessExponent=1
+leaderAdvantage=4
+leaderSelection=0
+haystackPeriod=2
+mixingPeriod=2
+
+[Run control]
+randomSeed=2
+minimumGenerations=100
+maximumGenerations=100000
+stopCriterion=8
+stopCriterionDegree=0.99
+delayScreen=0
+sweepsUsed=0
+sweepType=0, 0, 0
+sweepParameter=1, 3, 1
+sweepStartValue=0.001, 3.2, 0
+sweepEndValue=0.1, 5, 5
+sweepStep=4, 0.1, 5
+
+[Output control]
+fileOutputOptions=11363
+
+[Model-specific parameters]

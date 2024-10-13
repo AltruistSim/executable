@@ -3,8 +3,8 @@
 model=Territoriality model
 
 [Geography]
-totalArea=90000
-maxNumGroups=9000
+totalArea=40000
+maxNumGroups=4000
 maxPerGroup=100
 carryingCapacity=0.1, 0.1
 carryingCapacityStandardDeviation=0
@@ -14,7 +14,7 @@ minGroupSize=4
 recolonizationGroupSize=8
 
 [Migration]
-migrationRate=0.1, 0.1
+migrationRate=0.5, 0.5
 emigrationPattern=1
 immigrationPattern=4
 recolonizationPattern=5
@@ -33,8 +33,8 @@ growthRate=2
 selectionModel=0
 
 [Group properties]
-survivalRate=0.5
-warIntensity=0.1
+survivalRate=0
+warIntensity=1
 groupExtinctionRates=0.1, 0.05, 0.01, 0.01
 extinctionPattern=0
 warPattern=1
@@ -54,10 +54,10 @@ stopCriterionDegree=0.98
 delayScreen=0
 sweepsUsed=3
 sweepType=3, 1, 0
-sweepParameter=1, 10, 1
+sweepParameter=1, 6, 1
 sweepStartValue=0, 0, 0
-sweepEndValue=0.1, 0.5, 5
-sweepStep=1, 0.01, 5
+sweepEndValue=0.5, 1, 5
+sweepStep=1, 0.02, 5
 
 [Output control]
 fileOutputOptions=79147

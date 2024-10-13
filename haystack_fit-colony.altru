@@ -35,11 +35,11 @@ selectionModel=0
 [Group properties]
 survivalRate=0
 warIntensity=1
-demeExtinctionRates=0, 0, 0, 0
+groupExtinctionRates=0, 0, 0, 0
 extinctionPattern=0
 warPattern=1
 groupFitnessFunction=2
-groupFitnessExponent=1
+groupFitnessCurvature=1
 leaderAdvantage=4
 leaderSelection=0
 haystackPeriod=5
